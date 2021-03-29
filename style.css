@@ -20,3 +20,12 @@ body{
 span{
     font-size: 280%;
 }
+
+
+#denied{
+    font-size: 80%;
+    font-weight: bold;
+    margin-top: 4rem;
+    color: red;
+
+}
