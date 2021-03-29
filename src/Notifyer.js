@@ -5,8 +5,14 @@ const Notifyer = {
        if(permission !== "granted"){
            throw new Error('Permissão negada!')
        }
+
     },
-    notify(){}
+    notify({title, body, icon}){
+        new Notification(title, {
+            body,
+            icon
+        })
+    }
 }
 
 export { Notifyer }

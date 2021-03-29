@@ -4,6 +4,13 @@ const App = {
    async start(){
        try{
         await Notifyer.init()
+
+        Notifyer.notify({
+            title: "Water Time",
+            body: "Dê uma pausa e beba um pouco de água!"
+        })
+
+
        } catch (err){
         console.log(err.message)
         let denied = document.getElementById('denied')
