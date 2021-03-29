@@ -2,7 +2,7 @@
 
 
 
-## Este App ajuda você a não esquecer de beber água ##
+## Este App ajuda você a não esquecer de beber água! ##
 
 
 
