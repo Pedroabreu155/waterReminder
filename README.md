@@ -4,6 +4,8 @@
 
 ## Este App ajuda você a não esquecer de beber água! ##
 
+### Foram utilizadas pesquisas médicas para a elaboração dessa aplicação ### 
+
 
 
 Esse App é feito utilizando as seguintes techs:
