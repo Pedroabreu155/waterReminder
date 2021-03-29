@@ -1,10 +1,14 @@
 const Timer = {
 
+    time: 25 * 60,
+    currentTime: 0,
+
     init(){
-        setInterval(()=>{
-        // console.log("Rodando")
-        }, 1000)
+        Timer.currentTime = Timer.time
+        console.log(Timer.currentTime)
     },
+
+    countdown(){}
 
 }
 
