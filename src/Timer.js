@@ -32,6 +32,7 @@ const Timer = {
 
     if (Timer.currentTime === 0) {
       clearInterval(Timer.interval);
+      Emitter.emit('countdown-end')
       return;
     }
   },
