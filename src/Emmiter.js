@@ -1,0 +1,5 @@
+const Emmiter = {
+
+}
+
+export { Emmiter }
