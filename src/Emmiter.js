@@ -1,5 +1,0 @@
-const Emmiter = {
-
-}
-
-export { Emmiter }
