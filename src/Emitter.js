@@ -7,21 +7,17 @@ const Emitter = {
         Emitter.events[event].push(cb)
     },
 
-    emit(event){
+    emit(event, ...rest){
 
         if(event in Emitter.events === false){
             return;
         }
 
         Emitter.events[event].forEach((e) => {
-            e()
+            e(...rest)
         })
     }
 }
-
-Emitter.on('click', () => console.log('cliquei'))
-
-Emitter.emit('click')
 
 
 export { Emitter }

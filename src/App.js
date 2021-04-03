@@ -5,16 +5,23 @@ import { Emitter } from "./Emitter.js";
 const App = {
   async start() {
     try {
+      await Notifyer.init();
+
+      Emitter.on('countdown-start', () => {
+
+        Notifyer.notify({
+          title: "Water Time",
+          body: "Dê uma pausa e beba um pouco de água!",
+        });
+
+      })
 
       const time =  25 * 60 
       Timer.init(time);
 
-      // await Notifyer.init();
+      
 
-      // Notifyer.notify({
-      //   title: "Water Time",
-      //   body: "Dê uma pausa e beba um pouco de água!",
-      // });
+      
     } catch (err) {
       console.log(err.message);
       let denied = document.getElementById("denied");
