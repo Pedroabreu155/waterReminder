@@ -2,7 +2,7 @@ import { Notifyer } from "./Notifyer.js";
 import { Timer } from "./Timer.js";
 import { Emitter } from "./Emitter.js";
 
-const time = 0.1 * 60;
+const time = 25 * 60;
 const messages = [
   "Relaxe e beba um pouco de água!",
   "Descanse um pouquinho e se hidrate!",

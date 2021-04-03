@@ -10,6 +10,7 @@
 }
 
 body, div{
+    background-color: rgb(149, 213, 218);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
