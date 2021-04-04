@@ -1,7 +1,7 @@
 {
-  "name": "waterReminder",
+  "name": "WaterReminder",
   "version": "1.0.0",
-  "description": "Esse App é feito utilizando as seguintes techs:\r - NodeJS\r - HTML5\r - JavaScript\r - CCS3\r - ElectronJS",
+  "description": "App para relembrar você de se manter hidratado!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/Pedroabreu155/waterReminder.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Reminder",
+    "Water",
+    "Alert"
+  ],
+  "author": "Pedro Abreu",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Pedroabreu155/waterReminder/issues"
   },
-  "homepage": "https://github.com/Pedroabreu155/waterReminder#readme"
+  "homepage": "https://github.com/Pedroabreu155/waterReminder#readme",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  }
 }
