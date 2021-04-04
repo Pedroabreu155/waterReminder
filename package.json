@@ -2,7 +2,7 @@
   "name": "WaterReminder",
   "version": "1.0.0",
   "description": "App para relembrar você de se manter hidratado!",
-  "main": "main.js",
+  "main": "electron/main.js",
   "scripts": {
     "start": "electron ."
   },
