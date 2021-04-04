@@ -4,8 +4,9 @@ const { app, Menu } = require('electron')
 function App(){
   Menu.setApplicationMenu(null)
   const { win } = require('./startWindow.js')
-  const Tray = require('./Tray.js')
+  const tray = require('./Tray.js')
 
+  tray.on('click', () => {console.log('cliquei')})
   
 }
 
