@@ -15,7 +15,7 @@ Esse App é feito utilizando as seguintes techs:
 - CCS3
 - ElectronJS
 
-Para utilizá-lo basta baixar a pasta .zip ou clonar o repositório em sua máquina, após isso abra o arquivo index.html e bom uso! :top:
+Para utilizá-lo basta baixar a pasta .zip ou clonar o repositório em sua máquina, certifique-se de ter o node instalado, no terminal rode o comando "npm run build". Após isso será gerado um diretório com o nome "packages" e dentro dele uma pasta, dentro dessa pasta terá um arquivo executável do app! :top:
 
 
 
