@@ -17,10 +17,13 @@ function ControlWindow(win, tray){
         const {x, y} = getPosition()
 
         // update the positions
-        win.setPosition(x, y)
+        win.setPosition(x, y, false)
 
         //show window
+        win.show()
+
         //then win.focus()
+        win.focus()
     }
 
 
@@ -34,8 +37,15 @@ function ControlWindow(win, tray){
         return {x, y}
     }
 
+
+    return {
+        toggle
+    }
 }
 
+module.exports = ControlWindow
+
+//passando por referencia pra depois passar parametros
 
 
 
