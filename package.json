@@ -4,7 +4,8 @@
   "description": "App para relembrar você de se manter hidratado!",
   "main": "electron/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/Iconwater.icns --out=packages"
   },
   "repository": {
     "type": "git",
