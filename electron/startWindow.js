@@ -7,10 +7,14 @@ function createWindow () {
       height: 300,
       resizable: false,
       show: false,
-      frame: false,      
+      frame: false      
     })
   
     win.loadFile('index.html')
+
+
+    //window blur
+    win.on('blur', () => win.hide)
 
     return win
   }

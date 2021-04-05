@@ -32,7 +32,7 @@ function ControlWindow(win, tray){
         const trayBounds = tray.getBounds()
 
         const x = Math.round(trayBounds.x + (trayBounds.width / 2) - (winBounds.width / 2))
-        const y = Math.round(trayBounds.y + trayBounds.height + 3)
+        const y = Math.round(trayBounds.height + 300)
 
         return {x, y}
     }
